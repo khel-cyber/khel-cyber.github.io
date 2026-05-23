@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About — Kelvin Larbi Yeboah</title>
+<meta name="description" content="About Kelvin Larbi Yeboah — story, philosophy, and certifications." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/png" href="assets/favicon2.png" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">KELVIN<span>.</span></a>
+    <div class="nav-links">
+      <a href="index.html" data-nav>Home</a>
+      <a href="about.html" data-nav>About</a>
+      <a href="projects.html" data-nav>Projects</a>
+      <a href="contact.html" data-nav>Contact</a>
+    </div>
+    <button class="menu-btn" aria-label="Toggle menu">
+      <svg id="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg id="icon-close" style="display:none" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu">
+    <div class="mm-inner">
+      <a href="index.html" data-nav>Home</a>
+      <a href="about.html" data-nav>About</a>
+      <a href="projects.html" data-nav>Projects</a>
+      <a href="contact.html" data-nav>Contact</a>
+    </div>
+  </div>
+</header>
+
+<main class="container section" style="max-width:800px">
+  <p class="eyebrow">About</p>
+  <h1 class="page-title">My story.</h1>
+
+  <div class="story">
+    <p>I'm Kelvin Larbi Yeboah a business and data analyst who believes every dataset tells a story worth understanding. My journey started with curiosity: why do some businesses thrive while others stall? Data, I discovered, holds the answer.</p>
+    <p>I help organizations translate messy, scattered information into clear actionable business insight. From cleaning raw data with SQL and Python to building dashboards leadership actually uses, my work sits at the intersection of business strategy and analytical rigor.</p>
+  </div>
+
+  <div class="grid-3 about-icons">
+    <div class="card">
+      <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+      <h3>Focus</h3>
+      <p>Asking the right question before chasing the right number.</p>
+    </div>
+    <div class="card">
+      <svg class="card-icon" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.7.5 1 1.3 1 2.1V18h6v-1.2c0-.8.3-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>
+      <h3>Philosophy</h3>
+      <p>Clarity over complexity. Insight over information.</p>
+    </div>
+    <div class="card">
+      <svg class="card-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M8.2 13.8L7 22l5-3 5 3-1.2-8.2"/></svg>
+      <h3>Standard</h3>
+      <p>Decisions should be defensible, backed by clean data.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:64px">
+    <h2 style="font-size:26px">Certifications</h2>
+    <ul class="certs" style="list-style:none">
+      <li class="cert">Google Data Analytics Professional Certificate</li>
+      <li class="cert">Microsoft Power BI Data Analyst Associate (PL-300)</li>
+      <li class="cert">IBM Data Analyst Professional Certificate</li>
+      <li class="cert">SQL for Data Science — University of California, Davis</li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  <div class="container">© <span id="yr"></span> Kelvin Larbi Yeboah. Crafted with data &amp; precision.</div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+<script src="script.js"></script>
+</body>
+</html>
